@@ -29,7 +29,7 @@ select four,count(four)as fourcount, ((count(four)/381)*100)AS fourPer from resu
 select five,count(five)as fivecount, ((count(five)/381)*100)AS fivePer from result group by five order by fivecount desc;
 select six,count(six)as sixcount, ((count(six)/381)*100)AS sixPer from result group by six order by sixcount desc;
 select bonus,count(bonus)as bonuscount, ((count(bonus)/381)*100)AS bonusPer from result group by bonus order by bonuscount desc;
-------------------
+
 
 818회차 까지의 1번부터 보너스번호까지 합계를 평균을 내어서
 
